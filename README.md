@@ -6,4 +6,4 @@ sudo apt update && sudo apt install -y tmux git \
 && cp ~/tmux-config/.tmux.conf ~/ \
 && git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm \
 && tmux
-# Inside tmux: Ctrl+b then capital I to install plugins
+# Inside tmux: Prefix (Ctrl-space in this config, Ctrl-b normally) then capital I to install plugins
